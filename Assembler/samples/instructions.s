@@ -1,5 +1,4 @@
 This program will compute the nth fibonacci number
-Date: 12/5/22
 The output is stored in R1
 Anything typed here is ignored!
 
