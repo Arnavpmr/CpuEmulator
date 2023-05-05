@@ -49,11 +49,10 @@ It consists of a full 16 bit zeroed instruction
 - Stop (All 16 bits are 0s)
 
 ### Example Assembly Programs
-```assembly
 This program will compute the nth fibonacci number
 The output is stored in R1
 Anything typed here is ignored!
-
+```assembly
 .text
 MOVI R0 0 //comments are also supported
 MOVI R1 1
@@ -63,7 +62,6 @@ MOVI R3 5
 
 SUBI R3 R3 2
 
-//I love commenting ;)
 Loop: 
 CBZ R3 End
 
@@ -78,7 +76,7 @@ B Loop
 
 End: STOP
 
-//also note that .data can actually come before the .text segment and the assembler will run fine
+
 .data
 0x1123 0xffff
 0x6623 0x4487
