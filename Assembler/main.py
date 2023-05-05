@@ -1,8 +1,21 @@
 from assembler import Assembler
+import argparse
 
 
 def main():
-    assembler = Assembler("instructions.s")
+    parser = argparse.ArgumentParser(
+                    prog='Assembler',
+                    description='This program compiles assembl',
+                    epilog='Text at the bottom of help')
+    
+    parser.add_argument('instructionsfilename')
+    parser.add_argument('datafilename')
+
+    args = parser.parse_args()
+
+    print(args.instructionsfilename)
+
+    assembler = Assembler(parser.instructionsfilename)
 
     assembler.load_file()
     assembler.assemble()
