@@ -8,8 +8,6 @@ Clone down this repository. You will need `logicism-evolution` and `python` inst
 
 ### Installation:
 
-To install Python, visit:
-`https://www.python.org/downloads/`
+To install Python, visit: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-To download Logisim Evolution, go to:
-`https://github.com/logisim-evolution/logisim-evolution`
+To download Logisim Evolution, go to: [https://github.com/logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution)
