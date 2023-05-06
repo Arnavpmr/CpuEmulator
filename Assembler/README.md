@@ -49,9 +49,7 @@ It consists of a full 16 bit zeroed instruction
 - Stop (All 16 bits are 0s)
 
 ### Example Assembly Programs
-This program will compute the nth fibonacci number
-The output is stored in R1
-Anything typed here is ignored!
+This program will compute the nth fibonacci number!
 ```assembly
 .text
 MOVI R0 0 //comments are also supported
